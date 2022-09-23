@@ -1,0 +1,22 @@
+step-01: Project directory
+
+step-02: 
+			 Environment Setup:
+						python3 -m venv <venv_name>
+			 Activate venv:
+						source <venv_name>/bin/activate
+			 Deactivate venv:
+						deactivate
+step-03:
+			 Install Django:
+						python3 -m pip install django~=4.0.0
+			 Install Django Rest Framework:
+						python -m pip install djangorestframework~=3.13.0
+
+step-04: 
+			 Environment content:
+						pip freeze > requirements.txt
+step-05: 
+			 Git setup
+step-06:
+			code editor
